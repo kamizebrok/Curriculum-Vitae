@@ -86,10 +86,6 @@ footer {
     font-family: 'Montserrat', serif;
 }
 
-a {
-    color: #4CAF50;
-}
-
 a:hover {
     text-decoration: underline;
 }

@@ -5,55 +5,87 @@
     <title>CV</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-
-    <header>
-        <h1>Kamil Zebrokov</h1>
-        <p>Profesja / Tytuł zawodowy</p>
+    <header class="header-grid">
+        <div class="header-image">
+            <img src="jpgs/buzia.JPG" alt="buzia">
+        </div>
+        <div class="header-text">
+            <h1>Kamil Żebrok</h1>
+            <p>Data Scientist</p>
+        </div>
     </header>
+    
+    <div class="grid-container">
+        <div class="grid-item" id="about">
+            <h2>About</h2>
+            <p>I am a 22-years-old student in the third-year of Computer Science practical profile, specializing in data analysis engineering 
+                (Data Science). As a data scientist with a solid foundation in mathematics, statistics, 
+                and programming, I am dedicated for uncovering meaningful insights from complex datasets and turning them into 
+                actionable solutions.
+            </p>
+            <p> Outside of my working endeavors, I am an enthusiastic supporter of classical music, 
+                theoretical physics and I have a keen interest in basketball, both as a recreational player and a spectator.
+            </p>
+            <p>
+                Overall, I am motivated to continuously expanding my skill set, and contribute to impactful projects and 
+                collaborate with like-minded individuals.
+            </p>
+        </div>
+        <div class="grid-item" id="experience">
+            <h2>Work Experience</h2>
+            <article>
+                <h3>Tutor</h3>
+                <p><strong>Company: </strong>GoStudent</p>
+                <p><strong>Time:</strong> 10/2021 - Now</p>
+                <p>As a Mathematics, Physics and Computer Science tutor I primarily have been teaching high school students, but there were also 
+                    occasions when I worked with college students. I learned there how to work with different clients (both parents and students), 
+                    always be right on time and quickly adapt to their requirements..</p>
+            </article>
+        </div>
 
-    <section id="about">
-        <h2>O mnie</h2>
-        <p>Tutaj krótko o sobie, cele zawodowe i pasje.</p>
-    </section>
+        <div class="grid-item" id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>Bachelor of Science</h3>
+                <p><strong>Silesian University of Technology</strong> </p>
+                <p>Faculty of Applied Mathematics</p>
+                <p><strong>Subject: </strong>Computer Science</p>
+                <p><strong>Time:</strong> 10/2021 - 02/2025</p>
+            </article>
+        </div>
 
-    <section id="experience">
-        <h2>Doświadczenie zawodowe</h2>
-        <article>
-            <h3>Nazwa Stanowiska</h3>
-            <p><strong>Firma:</strong> Nazwa Firmy</p>
-            <p><strong>Data:</strong> MM/RR - MM/RR</p>
-            <p>Tutaj krótki opis obowiązków i osiągnięć.</p>
-        </article>
-    </section>
+        <div class="grid-item" id="skills">
+            <h2>Skills</h2>
+            - Python (Advanced)<br>
+            - C# / C++ / Java (Intermediate)<br>
+            - Wolfram Mathematica / Statistica<br>
+            - AI Algorithms / Calculus / Algebra / Statistics<br>
+            <strong>Languages:</strong> English C1 / Russian A2 / Polish - Native
+        </div>
 
-    <section id="education">
-        <h2>Edukacja</h2>
-        <article>
-            <h3>Tytuł naukowy / Stopień</h3>
-            <p><strong>Instytucja:</strong> POLSL</p>
-            <p><strong>Data:</strong> ??/?? - ??/??</p>
-        </article>
-    </section>
+        <div class="grid-item" id="contact">
+            <h2>Contact</h2>
+            <p>Email: zebrokamil@gmail.com</p>
+            <p>Telefon: +48 603 424 709</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/kamil-%C5%BCebrok-2a0a77257/" target="_blank">Kamil Żebrok</a></p>
+            <p>Github: <a href="https://github.com/kamizebrok" target="_blank">kamizebrok</a></p>
+        </div>
 
-    <section id="skills">
-        <h2>Umiejętności</h2>
-        <ul>
-            <li>Umiejętność 1</li>
-            <li>Umiejętność 2</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Kontakt</h2>
-        <p>Email: kamykowicz.kamil@gmail.com</p>
-        <p>Telefon: +48 603 424 709</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/zapomniolem" target="_blank">Kamil Zebrokov</a></p>
-        </section>
-
+        <div class="grid-item" id="projects">
+            <h2>Projects</h2>
+            <p>1. <a href="https://github.com/kamizebrok/Metaheuristic-Optimization" target="_blank">Metaheuristic Optimization</a></p>
+            <p>2. <a href="https://github.com/kamizebrok/Muchomorek" target="_blank">Muchomorek</a></p>
+            <p>3. <a href="https://github.com/kamizebrok/Moje-Piwo" target="_blank">Moje Piwo</a></p>
+            <p>4. <a href="https://github.com/kamizebrok/Obesity" target="_blank">Wizualizacja danych dotyczących nadwagi</a></p>
+            <p>5. <a href="https://colab.research.google.com/drive/1vbc8_uX9AOkdE7WHB36LAO0vCTw220yG?usp=sharing#scrollTo=wDK75VAjlwsI" target="_blank">Eksploracja danych - gladiatorzy</a></p>
+            <p>6. <a href="https://colab.research.google.com/drive/11ykGEczjhTID_CdMaDNdCvAE_A6N513o#scrollTo=g7diKN3h0gmx" target="_blank">Statystyczna analiza jabłek</a></p>
+            
+        </div>
+    </div> 
     <footer>
-        <p>&copy; 2024 Kamil Zebrok</p>
+        <p>&copy; 2024 Kamil Żebrok</p>
     </footer>
-
 </body>
 </html>
